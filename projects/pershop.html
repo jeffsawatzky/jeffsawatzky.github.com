@@ -1,69 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<meta charset='utf-8' />
-		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
-		<meta name="description" content="Pershop : An iPhone app to manage your personal shopper client list" />
-		<meta name="keywords" content="pershop, personal shopper, personal, shopper, client, clients, manager, clothes, buy, size, dress, shoe, shirt" />
-
-		<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
+		<meta charset="utf-8">
 		<title>Pershop</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Pershop : An iPhone app to manage your personal shopper client list" />
+		<meta name="author" content="Jeff Sawatzky">
+		<meta name="keywords" content="pershop, personal shopper, personal, shopper, client, clients, manager, clothes, buy, size, dress, shoe, shirt" />
+		
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<style type="text/css">
+			body {
+				padding-top: 60px;
+				padding-bottom: 40px;
+			}
+		</style>
+		<link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="../css/project.css" rel="stylesheet">
+
+		<!--[if lt IE 9]>
+		<script src="../js/html5.js"></script>
+		<![endif]-->
 	</head>
 
 	<body>
 
-		<!-- HEADER -->
-		<div id="header_wrap" class="outer">
-				<header class="inner">
-					<a id="user_banner" href="http://niltz.github.com">niltz's designs</a>
-					<a id="appstore_banner" href="https://itunes.apple.com/ca/app/pershop/id590280927?mt=8"></a>
-
-					<h1 id="project_title">Pershop</h1>
-					<h2 id="project_tagline">An iPhone app to manage your personal shopper client list</h2>
-				</header>
-		</div>
-
-		<!-- MAIN CONTENT -->
-		<div id="main_content_wrap" class="outer">
-			<section id="main_content" class="inner">
-				<h1>Pershop (short for "Personal Shopper")</h1>
-				<p>Are you a personal shopper? Would you like a better way to manage your client list? Then give Pershop a try!</p>
-				<ul>
-					<li>Link clients to entries in your address book</li>
-					<li>Keep track of dress, shoe, pant, and shirt sizes</li>
-					<li>Take photos of receipts to track previous purchases</li>
-				</ul>
-				<p>Whether you work at a high end clothing store, or do contract work, Pershop will help you manage your clients. Have outfits picked out before the client arrives! Know what they purchased in the past to help find complementary pieces! The happier your clients are the happier you will be!</p>
-			</section>
-			
-			<div style="text-align: center;">
-				<img style="width: 320px;" src="images/pershop/IMG_0102.png" alt="IMG_0102.png" />
-				<img style="width: 320px;" src="images/pershop/IMG_0101.png" alt="IMG_0101.png" /><br />
-				<img style="width: 320px;" src="images/pershop/IMG_0107.png" alt="IMG_0107.png" />
-				<img style="width: 320px;" src="images/pershop/IMG_0105.png" alt="IMG_0105.png" /><br />
-				<img style="width: 320px;" src="images/pershop/IMG_0106.png" alt="IMG_0106.png" />
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a class="brand" href="http://niltz.github.com">niltz's designs</a>
+					<div class="nav-collapse">
+						<ul class="nav">
+							<li><a href="http://niltz0.wordpress.com/">Blog</a></li>
+							<li><a href="http://twitter.com/niltz0">Follow</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
 			</div>
 		</div>
 
-		<!-- FOOTER	-->
-		<div id="footer_wrap" class="outer">
-			<footer class="inner">
-				<p class="copyright">Pershop maintained by <a href="https://github.com/niltz">niltz</a></p>
-			</footer>
-		</div>
+		<div class="container">
 
-	<!-- Google Analytics -->
-	<script type="text/javascript">
-		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	</script>
-	<script type="text/javascript">
-		try {
-			var pageTracker = _gat._getTracker("UA-37144494-1");
-			pageTracker._trackPageview();
-		} catch(err) {}
-	</script>
-	
+			<!-- Main hero unit for a primary marketing message or call to action -->
+			<div class="hero-unit">
+				<h1>Pershop</h1>
+				<p>An iPhone app to manage your personal shopper client list</p>
+				<p><a href="https://itunes.apple.com/ca/app/pershop/id590280927?mt=8"><img src="../img/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="Download on the App Store" /></a></p>
+			</div>
+			
+			<div class="row">
+				<div class="span12">
+					<p>Are you a personal shopper? Would you like a better way to manage your client list? Then give Pershop a try!</p>
+					<ul>
+						<li>Link clients to entries in your address book</li>
+						<li>Keep track of dress, shoe, pant, and shirt sizes</li>
+						<li>Take photos of receipts to track previous purchases</li>
+					</ul>
+					<p>Whether you work at a high end clothing store, or do contract work, Pershop will help you manage your clients. Have outfits picked out before the client arrives! Know what they purchased in the past to help find complementary pieces! The happier your clients are the happier you will be!</p>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="span12">
+					<img style="width: 320px;" src="images/pershop/IMG_0102.png" alt="IMG_0102.png" />
+					<img style="width: 320px;" src="images/pershop/IMG_0101.png" alt="IMG_0101.png" />
+					<img style="width: 320px;" src="images/pershop/IMG_0107.png" alt="IMG_0107.png" />
+					<img style="width: 320px;" src="images/pershop/IMG_0105.png" alt="IMG_0105.png" />
+					<img style="width: 320px;" src="images/pershop/IMG_0106.png" alt="IMG_0106.png" />
+				</div>
+			</div>
+			
+			<footer>
+				<p>Pershop maintained by <a href="https://github.com/niltz">niltz</a></p>
+			</footer>
+			
+		</div>
+		
+		<script src="../js/jquery-1.7.1.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		
+		<!-- Google Analytics -->
+		<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-37144494-1");
+				pageTracker._trackPageview();
+			} catch(err) {}
+		</script>
 	</body>
 </html>

@@ -1,72 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<meta charset='utf-8' />
-		<meta http-equiv="X-UA-Compatible" content="chrome=1" />
-		<meta name="description" content="MyTrax : An iPhone/iPad app to track where you've been" />
-		<meta name="keywords" content="mytrax,geo,geotag,geolog,geolocation,gpx,gps,photo,geotagging,geologging" />
-
-		<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
+		<meta charset="utf-8">
 		<title>MyTrax</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="MyTrax : An iPhone/iPad app to track where you've been" />
+		<meta name="author" content="Jeff Sawatzky">
+		<meta name="keywords" content="mytrax,geo,geotag,geolog,geolocation,gpx,gps,photo,geotagging,geologging" />
+		
+		<link href="../css/bootstrap.min.css" rel="stylesheet">
+		<style type="text/css">
+			body {
+				padding-top: 60px;
+				padding-bottom: 40px;
+			}
+		</style>
+		<link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link href="../css/project.css" rel="stylesheet">
+
+		<!--[if lt IE 9]>
+		<script src="../js/html5.js"></script>
+		<![endif]-->
 	</head>
 
 	<body>
 
-		<!-- HEADER -->
-		<div id="header_wrap" class="outer">
-				<header class="inner">
-					<a id="user_banner" href="http://niltz.github.com">niltz's designs</a>
-					<a id="appstore_banner" href="https://itunes.apple.com/ca/app/mytrax/id595030026?mt=8"></a>
-
-					<h1 id="project_title">MyTrax</h1>
-					<h2 id="project_tagline">An iPhone/iPad app to track where you've been</h2>
-				</header>
-		</div>
-
-		<!-- MAIN CONTENT -->
-		<div id="main_content_wrap" class="outer">
-			<section id="main_content" class="inner">
-				<h1>MyTrax</h1>
-				<p>With MyTrax you can track where you've been, and then export the data to a GPX file for use in other software. MyTrax supports running in the background so you can do other things while MyTrax is running, and if your device supports it, it will turn off the GPS when not in use to save on battery.</p>
-				<p>Use MyTrax to:</p>
-				<ul>
-				<li>track where/how far you've walked</li>
-				<li>track where/how far you've hiked</li>
-				<li>track where/how far you've ran</li>
-				<li>track where you've travelled</li>
-				</ul>				
-				<p>Use the exported GPX file to:</p>
-				<ul>
-				<li>view the track information in other software such as Garmin Basecamp for the Mac</li>
-				<li>import into geotagging software and geotag your photos. Useful if you don't have a camera with a gps.</li>
-				</ul>
-			</section>
-			
-			<div style="text-align: center;">
-				<img style="width: 320px;" src="images/mytrax/IMG_0123.png" alt="IMG_0102.png" />
-				<img style="width: 320px;" src="images/mytrax/IMG_0122.png" alt="IMG_0101.png" />
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner">
+				<div class="container">
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a class="brand" href="http://niltz.github.com">niltz's designs</a>
+					<div class="nav-collapse">
+						<ul class="nav">
+							<li><a href="http://niltz0.wordpress.com/">Blog</a></li>
+							<li><a href="http://twitter.com/niltz0">Follow</a></li>
+						</ul>
+					</div><!--/.nav-collapse -->
+				</div>
 			</div>
 		</div>
 
-		<!-- FOOTER	-->
-		<div id="footer_wrap" class="outer">
-			<footer class="inner">
-				<p class="copyright">MyTrax maintained by <a href="https://github.com/niltz">niltz</a></p>
-			</footer>
-		</div>
+		<div class="container">
 
-	<!-- Google Analytics -->
-	<script type="text/javascript">
-		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-	</script>
-	<script type="text/javascript">
-		try {
-			var pageTracker = _gat._getTracker("UA-37144494-1");
-			pageTracker._trackPageview();
-		} catch(err) {}
-	</script>
-	
+			<!-- Main hero unit for a primary marketing message or call to action -->
+			<div class="hero-unit">
+				<h1>MyTrax</h1>
+				<p>An iPhone/iPad app to track where you've been</p>
+				<p><a href="https://itunes.apple.com/ca/app/mytrax/id595030026?mt=8"><img src="../img/Download_on_the_App_Store_Badge_US-UK_135x40.png" alt="Download on the App Store" /></a></p>
+			</div>
+			
+			<div class="row">
+				<div class="span12">
+					<p>With MyTrax you can track where you've been, and then export the data to a GPX file for use in other software. MyTrax supports running in the background so you can do other things while MyTrax is running, and if your device supports it, it will turn off the GPS when not in use to save on battery.</p>
+					<p>Use MyTrax to:</p>
+					<ul>
+						<li>track where/how far you've walked</li>
+						<li>track where/how far you've hiked</li>
+						<li>track where/how far you've ran</li>
+						<li>track where you've travelled</li>
+					</ul>				
+					<p>Use the exported GPX file to:</p>
+					<ul>
+						<li>view the track information in other software such as Garmin Basecamp for the Mac</li>
+						<li>import into geotagging software and geotag your photos. Useful if you don't have a camera with a gps.</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="span12">
+					<img style="width: 320px;" src="images/mytrax/IMG_0123.png" alt="IMG_0102.png" />
+					<img style="width: 320px;" src="images/mytrax/IMG_0122.png" alt="IMG_0101.png" />
+				</div>
+			</div>
+			
+			<footer>
+				<p>MyTrax maintained by <a href="https://github.com/niltz">niltz</a></p>
+			</footer>
+			
+		</div>
+		
+		<script src="../js/jquery-1.7.1.min.js"></script>
+		<script src="../js/bootstrap.min.js"></script>
+		
+		<!-- Google Analytics -->
+		<script type="text/javascript">
+			var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+			document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+			try {
+				var pageTracker = _gat._getTracker("UA-37144494-1");
+				pageTracker._trackPageview();
+			} catch(err) {}
+		</script>
 	</body>
 </html>
